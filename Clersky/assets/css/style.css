@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before{
+padding: 0;
+margin: 0;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.header{
+    background-color: #163A24;
+    color: #FBFAF7;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.conteiner{
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.header__link{
+color: #FBFAF7;
+}
+
+.header__buttons{
+display: flex;
+align-items: center;
+gap: 24px;
+}
+
+.btn{
+background-color: #198C36;
+padding: 15px 25px 15px 25px;
+border-radius: 160px;
+
+}
+.first-section{
+background-color: #163A24;
+background-image: url(../img/fon.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+
+.first_section__text-block{
+    color: #FBFAF7;
+    max-width: 491px;
+    padding-top: 120px;
+}
+
+.section__title{
+font-size: 48px;
+    font-weight: bold;
+}
+
+.section__sub-title{
+    font-size: 18px;
+}
+
+.first-section__text-block{
+    display: flex;
+    align-items: center;
+}
+
+.second-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
